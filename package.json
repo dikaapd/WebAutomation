@@ -1,0 +1,17 @@
+{
+  "name": "saucedemo-selenium",
+  "version": "1.0.0",
+  "description": "Automation test login SauceDemo: Selenium WebDriver + POM + Visual Regression (PixelMatch & PNGJS)",
+  "scripts": {
+    "test": "mocha",
+    "test:headed": "cross-env HEADED=true mocha",
+    "test:update": "cross-env UPDATE_SNAPSHOTS=true mocha"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "mocha": "^10.7.3",
+    "pixelmatch": "5.3.0",
+    "pngjs": "^7.0.0",
+    "selenium-webdriver": "^4.25.0"
+  }
+}
